@@ -1,0 +1,65 @@
+{
+    "layout_name": "Title-01",
+    "usage_scene": "タイトルスライドにのみ仕様",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "タイトルをここに挿入"},
+      {"type": "BODY", "idx": 12, "description": "サブタイトルをここに挿入"}
+    ]
+  }
+  {
+    "layout_name": "Section divider-02",
+    "usage_scene": "セクションの切り替え時に使用する区切りスライドA。セクション切り替えはAとBを交互に使用する",
+    "placeholders": [
+      {"type": "BODY", "idx": 11, "description": "セクション名や章タイトルの表示用"}
+    ]
+  }
+  {
+    "layout_name": "Section divider-04",
+    "usage_scene": "別スタイルのセクション区切りスライドB。セクション切り替えはAとBを交互に使用する",
+    "placeholders": [
+      {"type": "BODY", "idx": 11, "description": "セクション名や章タイトルの表示用"}
+    ]
+  }
+  {
+    "layout_name": "1x column-design 01",
+    "usage_scene": "1カラムで本文中心の説明に適したスライドA。本文の内容に応じてデザインを変える",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "本文を配置"},
+      {"type": "TITLE", "idx": 0, "description": "スライドのタイトル"}
+    ]
+  }
+  {
+    "layout_name": "1x column-design 02",
+    "usage_scene": "1カラムで本文中心の説明に適したスライドB。本文の内容に応じてデザインを変える",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "本文を配置"},
+      {"type": "TITLE", "idx": 0, "description": "スライドのタイトル"}
+    ]
+  }
+  {
+    "layout_name": "2x column-design 02",
+    "usage_scene": "比較や2項目の同時提示に適したレイアウト。比較する際に仕様",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "左側の本文"},
+      {"type": "BODY", "idx": 11, "description": "右側の本文"},
+      {"type": "TITLE", "idx": 0, "description": "スライドのタイトル"}
+    ]
+  }
+  {
+    "layout_name": "1x column-plain grey",
+    "usage_scene": "シンプルな説明のスライド。本文が多いときに使用する。表を挿入する際もこれを使用する。idx:10に表を挿入すること。",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "本文を配置"},
+      {"type": "TITLE", "idx": 0, "description": "スライドのタイトル"}
+    ]
+  }
+  {
+    "layout_name": "Image right-plain grey",
+    "usage_scene": "右側に画像を配置して左側で説明を行う構成。本文が少ない時、アクセント的に使用する。",
+    "placeholders": [
+      {"type": "BODY", "idx": 10, "description": "本文を配置。"},
+      {"type": "PICTURE", "idx": 12, "description": "右側に配置されるメイン画像"},
+      {"type": "TITLE", "idx": 0, "description": "スライドのタイトル"}
+    ]
+  }
+  
